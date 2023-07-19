@@ -14,6 +14,7 @@ def load_eqs(omega_d,omega):
         return dydt
     return eqs
 eqs=load_eqs(9,3);
+#omega_ d and omega are both chosen at random - can be variable as parameters 
 def get_y0(r0=1,tmax = 100):
     t = np.arange(1, tmax,0.01)
     sol = odeint(eqs, [1,1], t,args=(lambda t: r0,))
