@@ -75,10 +75,6 @@ To use the code and generate simulation results, follow these steps:
 
 Note: The initial conditions for dopamine and inhibition are automatically calculated using the `get_y0` function.
 
-## Citation
-
-If you use this code or simulation in your work, please consider citing the source or providing appropriate acknowledgment.
-
 ---
 
 *This code provides a comprehensive yet concise implementation of a dopamine transmission model with reward-based learning. The simulation and visualization enable insights into how dopamine levels respond to reward signals and inhibitory influences. Feel free to experiment with different parameters and scenarios to gain a deeper understanding of the system's dynamics.*
